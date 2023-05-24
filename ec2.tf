@@ -3,7 +3,7 @@ module "ec2_instance" {
 
   name = "Terraform-task"
   instance_type          = "t2.micro"
-  key_name               = "test"
+  key_name               = "cicd"
 
   tags = {
    Terraform   = "true"
