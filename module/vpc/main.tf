@@ -52,7 +52,7 @@ resource "aws_instance" "instance" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket = "${var.name}1111122-bucket"
+  bucket = "${var.name}111110022-bucket"
 
   tags = {
     Name = "${var.name}-bucket"
