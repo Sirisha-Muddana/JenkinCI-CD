@@ -13,7 +13,7 @@ variable "cidr" {
 variable "availability_zone" {
   description = "availability_zone"
   type        = string
-  default     = "us-east-1a"
+  default     = "ap-south-1a"
 }
 
 variable "ami" {
@@ -40,20 +40,20 @@ variable "tags" {
   default     = {}
 }
 
-variable "master_username" {
-  description = "master_username"
-  type        = string
-  default     = "admin"
-}
+# variable "master_username" {
+#   description = "master_username"
+#   type        = string
+#   default     = "admin"
+# }
 
-variable "master_password" {
-  description = "master_password"
-  type        = string
-  default     = "Testing1"
-}
+# variable "master_password" {
+#   description = "master_password"
+#   type        = string
+#   default     = "Testing1"
+# }
 
 variable "region" {
   description = "region"
   type        = string
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }

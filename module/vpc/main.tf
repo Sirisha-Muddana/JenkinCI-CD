@@ -65,13 +65,13 @@ resource "aws_s3_bucket" "bucket" {
 ################################################################################
 
 
-resource "aws_rds_cluster" "rds" {
-  cluster_identifier      = "${var.name}-aurora"
-  availability_zones      = [var.availability_zone]
-  database_name           = "${var.name}db"
-  master_username         = var.master_username
-  master_password         = var.master_password
-  backup_retention_period = 5
-  preferred_backup_window = "07:00-09:00"
-  skip_final_snapshot     = true
-}
+#resource "aws_rds_cluster" "rds" {
+#   cluster_identifier      = "${var.name}-aurora"
+#   availability_zones      = [var.availability_zone]
+#   database_name           = "${var.name}db"
+#   master_username         = var.master_username
+#   master_password         = var.master_password
+#   backup_retention_period = 5
+#   preferred_backup_window = "07:00-09:00"
+#   skip_final_snapshot     = true
+# }
