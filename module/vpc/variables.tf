@@ -7,7 +7,7 @@ variable "name" {
 variable "cidr" {
   description = "The IPv4 CIDR block for the VPC"
   type        = string
-  default     = "175.16.0.0/16"
+  default     = "172.16.0.0/16"
 }
 
 variable "availability_zone" {
